@@ -14,6 +14,8 @@ jobs:
         with:
           node-version: lts/Gallium
           registry-url: 'https://registry.npmjs.org'
+      - name: disable husky prepare
+        run: npm set-script prepare ""
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
