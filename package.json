@@ -5,10 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "release-it"
+    "format": "prettier --write '**/*.{js,json,md,yml,yaml}'",
+    "format:staged": "pretty-quick --staged --verbose --pattern '**/*.{js,json,md,yml,yaml}'",
+    "release": "release-it",
+    "prepare": "husky install"
   },
   "devDependencies": {
+    "husky": "^7.0.0",
     "prettier": "^2.5.0",
+    "pretty-quick": "^3.1.2",
     "release-it": "^14.11.8"
   },
   "peerDependencies": {
