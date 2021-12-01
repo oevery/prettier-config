@@ -1,0 +1,36 @@
+{
+  "name": "@moonbegonia/prettier-config",
+  "version": "0.0.1",
+  "description": "MoonBegonia's default prettier config.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.0",
+    "release-it": "^14.11.8"
+  },
+  "peerDependencies": {
+    "prettier": "^2.4.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonBegonia/prettier-config.git"
+  },
+  "keywords": [
+    "prettier-config"
+  ],
+  "author": "MoonBegonia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MoonBegonia/prettier-config/issues"
+  },
+  "homepage": "https://github.com/MoonBegonia/prettier-config#readme"
+}
