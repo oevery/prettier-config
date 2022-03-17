@@ -1,7 +1,7 @@
 {
-  "name": "@moonbegonia/prettier-config",
-  "version": "1.1.0",
-  "description": "MoonBegonia's default prettier config.",
+  "name": "@oevery/prettier-config",
+  "version": "1.0.0",
+  "description": "MoonBegonia(oevery)'s default prettier config.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,10 +11,10 @@
     "prepare": "husky install"
   },
   "devDependencies": {
-    "husky": "^7.0.0",
-    "prettier": "^2.5.0",
-    "pretty-quick": "^3.1.2",
-    "release-it": "^14.11.8"
+    "husky": "^7.0.4",
+    "prettier": "^2.6.0",
+    "pretty-quick": "^3.1.3",
+    "release-it": "^14.12.5"
   },
   "peerDependencies": {
     "prettier": "^2.4.0"
@@ -27,15 +27,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MoonBegonia/prettier-config.git"
+    "url": "git+https://github.com/oevery/prettier-config.git"
   },
   "keywords": [
     "prettier-config"
   ],
-  "author": "MoonBegonia",
+  "author": "oevery",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MoonBegonia/prettier-config/issues"
+    "url": "https://github.com/oevery/prettier-config/issues"
   },
-  "homepage": "https://github.com/MoonBegonia/prettier-config#readme"
+  "homepage": "https://github.com/oevery/prettier-config#readme"
 }
