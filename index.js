@@ -2,10 +2,10 @@ module.exports = {
   printWidth: 80,
   tabWidth: 2,
   useTabs: false,
-  semi: true,
+  semi: false,
   singleQuote: true, // true|false default: false
   quoteProps: 'as-needed',
-  trailingComma: 'all', // none|es5|all default: es5
+  trailingComma: 'es5', // none|es5|all default: es5
   bracketSpacing: true,
   bracketSameLine: false, // true|false default: false
   arrowParens: 'always',
@@ -23,8 +23,8 @@ module.exports = {
     {
       files: ['*.json', '*.json5'],
       options: {
-        printWidth: 180,
+        printWidth: 160,
       },
     },
   ],
-};
+}
