@@ -5,10 +5,9 @@ module.exports = {
   semi: true,
   singleQuote: true, // true|false default: false
   quoteProps: 'as-needed',
-  jsxSingleQuote: false,
   trailingComma: 'all', // none|es5|all default: es5
   bracketSpacing: true,
-  bracketSameLine: true, // true|false default: false
+  bracketSameLine: false, // true|false default: false
   arrowParens: 'always',
   rangeStart: 0,
   rangeEnd: Infinity,
