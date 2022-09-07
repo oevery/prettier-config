@@ -1,6 +1,6 @@
 {
   "name": "@oevery/prettier-config",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "MoonBegonia(oevery)'s default prettier config.",
   "main": "index.js",
   "scripts": {
